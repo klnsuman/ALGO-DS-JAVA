@@ -1,8 +1,19 @@
-package Algorithmica;
+package LinkedListTest;
 
 public interface IList {
+	
+	public void insertAtBegin(int data);
+	
+	public void insertAtEnd(int data);
+	
+	public void insertAtPos(int data,int position);
 
-	public void add(Integer e);
-	public void display(int index);
-	public int size(int index);
+	public void display();
+	
+	public int getSize();
+	
+	public void removeFromBegin();
+	public void removeFromEnd();
+	
+	public void removeFromPosition();
 }
