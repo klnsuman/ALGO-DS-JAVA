@@ -36,7 +36,7 @@ class ArrayQueue:
        
    def dequeue(self):
        if(self.isEmpty()):
-          raise sys.Empty("Queue is Empty")
+          raise Exception("Queue is Empty")
           
        answer = self._data[self._front]   
        self._front = (self._front+1)%len(self._data)
@@ -54,10 +54,10 @@ class ArrayQueue:
        self._data = [None]*cap
        walk = self._front
        
-       for k in range(cap):
+       for k in range(self._size):
            self._data[k] = old[walk]
-           walk += 1
-           
+           walk = (walk + 1)%len(old)
+       self._front = 0    
    def printQueue(self): 
        walk = self._front
        while (walk<self._size):
@@ -69,7 +69,10 @@ def main():
     Q.enqueue(2)
     Q.dequeue()
     Q.dequeue()
-    Q.dequeue()
+   
+    for i in range(30):
+        Q.enqueue(i)
+        
     Q.printQueue()
 
 if __name__ == '__main__':
