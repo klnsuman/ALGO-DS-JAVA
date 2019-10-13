@@ -1,0 +1,25 @@
+newPatient: John 55
+newPatient: Ram, 59
+newPatient: raheem, 90
+newPatient: boult, 25
+nextPatient
+asdad
+newPatient: Jocob, 55
+nextPatient
+nextPatient
+nextPatient
+nextPatient
+nextPatient
+newPatient: antony, 99
+nextPatient
+nextPatient
+nextPatient
+nextPatientas
+nextPatient
+
+
+
+
+
+
+    ,

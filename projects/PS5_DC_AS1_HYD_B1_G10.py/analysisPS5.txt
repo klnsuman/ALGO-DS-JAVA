@@ -1,0 +1,31 @@
+Initial Load of patient data:
+-------------------------
+Here we are calling Heapify to generate a max heap out of the input data basing on the patients age.
+Assuming if there are n patient records,
+
+Heapify taken log(n) time for one call. And this has to be called for all non-leaf nodes
+which would be at max N/2 times.
+So the complexity would be O(n/2 * log(n)).
+But the amortized complexity comes to a linear function which would be O(n).
+
+Sorting the initial patient list would need a heap sort to be run,
+
+We just saw heapify has complexity O(logN), and building heap is taking a complexity of O(n).
+And to sort n elements we run heapify N-1 times, this making the complexity of generating is O(nlogn).
+
+Insert new patient:
+------------------
+For each new patient coming in,
+We add the patient to the priority queue (heap) at last and potentially this can break the 
+heap property so we call the heapify again.
+This takes O(logn).
+Again for sorting the new list, it takes O(nlogn)
+
+
+Display Next Patient Id:
+--------------------
+This is a dequeue operation on a Priority queue.
+In this operation, the patient with max age on the start of the queue will be returned.
+Now this first position in the the queue is replaced with the last element in the queue.
+And as this voilates the heap property, we call heapify on this top node.
+This takes O(logn) time.

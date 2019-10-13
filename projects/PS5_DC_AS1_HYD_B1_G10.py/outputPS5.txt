@@ -1,0 +1,107 @@
+----------------------- Invalid Data ---------------------
+ Incomplete data. <<nsjd;las>> Skipping record
+ -----------------------------------------------------------
+----------------------- Invalid Data ---------------------
+ Incomplete data. <<;lsad>> Skipping record
+ -----------------------------------------------------------
+----------------------- Initial queue ---------------------
+No of patients added: 4 
+Refreshed Queue:
+1000490, asdsad
+1000160, Surya
+1000357, Rishi
+1000254, Ajay
+-----------------------------------------------------------
+--------------------- Message to user ---------------------
+Invalid string <<newPatient: John 55>> in the inputfile. Skipping record.
+-----------------------------------------------------------
+------------------- New Patient Entered -------------------
+Patient Details: Ram, 59, 1000559 
+Patients waiting on the queue: 5 
+Refreshed Queue:
+1000490, asdsad
+1000160, Surya
+1000559, Ram
+1000357, Rishi
+1000254, Ajay
+-----------------------------------------------------------
+------------------- New Patient Entered -------------------
+Patient Details: raheem, 90, 1000690 
+Patients waiting on the queue: 6 
+Refreshed Queue:
+1000490, asdsad
+1000690, raheem
+1000160, Surya
+1000559, Ram
+1000357, Rishi
+1000254, Ajay
+-----------------------------------------------------------
+------------------- New Patient Entered -------------------
+Patient Details: boult, 25, 1000725 
+Patients waiting on the queue: 7 
+Refreshed Queue:
+1000690, raheem
+1000490, asdsad
+1000160, Surya
+1000559, Ram
+1000357, Rishi
+1000254, Ajay
+1000725, boult
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000690, raheem
+-----------------------------------------------------------
+--------------------- Message to user ---------------------
+Invalid string <<asdad>> in the inputfile. Skipping record.
+-----------------------------------------------------------
+------------------- New Patient Entered -------------------
+Patient Details: Jocob, 55, 1000855 
+Patients waiting on the queue: 7 
+Refreshed Queue:
+1000490, asdsad
+1000160, Surya
+1000559, Ram
+1000357, Rishi
+1000855, Jocob
+1000254, Ajay
+1000725, boult
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000490, asdsad
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000160, Surya
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000559, Ram
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000357, Rishi
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000855, Jocob
+-----------------------------------------------------------
+------------------- New Patient Entered -------------------
+Patient Details: antony, 99, 1000999 
+Patients waiting on the queue: 3 
+Refreshed Queue:
+1000999, antony
+1000254, Ajay
+1000725, boult
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000999, antony
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000254, Ajay
+-----------------------------------------------------------
+----------------------- Next patient ----------------------
+Next patient for consultation is: 1000725, boult
+-----------------------------------------------------------
+--------------------- Message to user ---------------------
+Invalid string <<nextPatientas>> in the inputfile. Skipping record.
+-----------------------------------------------------------
+No more patients in queue
+--------------------- Message to user ---------------------
+Invalid string <<,>> in the inputfile. Skipping record.
+-----------------------------------------------------------
